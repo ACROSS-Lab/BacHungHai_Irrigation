@@ -267,7 +267,7 @@ species Station {
 	aspect default {
 		draw shape color: #red;
 		draw circle(0.009) color: #red empty: true;
-		draw Name + " " + heso[cycle mod 4388] + " " + ll size: 10 at: location + 0.002;
+//		draw Name + " " + heso[cycle mod 4388] + " " + ll size: 10 at: location + 0.002;
 	}
 
 }
