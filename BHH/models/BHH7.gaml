@@ -132,7 +132,7 @@ species river {
 		water_volume_from_other <- 0.0;
 	}
 	reflex evapo{
-//		water_volume<-water_volume-evapo_rate*rnd(10)*water_volume;
+		water_volume<-water_volume-evapo_rate*rnd(1)*water_volume;
 	}
 	
 	aspect default {
