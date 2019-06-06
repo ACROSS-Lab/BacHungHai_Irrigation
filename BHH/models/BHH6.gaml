@@ -9,11 +9,11 @@
 model Waterflowrivergraph
 
 global {
-	file river_shape_file <- shape_file("../includes/river_simple1.shp");
+	file river_shape_file <- shape_file("../includes/river_simple2.shp");
 	file poi_file <- shape_file("../includes/river_poi.shp");
 	file tram_mua_shapefile <- file("../includes/TramMua.shp");
 
-	geometry shape <- envelope(river_shape_file) +0.05;
+	geometry shape <- envelope(river_shape_file) +0.01;
 	Station source;
 	Station dest;
 	graph the_river;
@@ -32,14 +32,17 @@ global {
 	}
 	
 	reflex water_flow { 
-		 if (every(10#cycles)) {
+		 if (every(1000#cycles)) {
 			ask source  {
 				do give_water;
 			}	
 			ask dest{
-				do take_water;
+				do give_water;
 			}
-		 } else {		
+		 }
+//		  else {	
+
+		 if (every(1#cycles)) {	
 			ask river {
 				do water_flow;
 			}
@@ -79,11 +82,11 @@ species Station skills: [moving] {
 
 	action give_water {
 //		write "give water";
-		ask river overlapping self{water_volume <-water_volume+ 0.004;}
+		ask river overlapping self{water_volume <-water_volume+ 0.002;}
 	}
 
 	action take_water {
-		ask river overlapping self{water_volume <-water_volume -0.004;}
+		ask river overlapping self{water_volume <-water_volume -0.0004;}
 	}
 
 	aspect default {
@@ -107,19 +110,22 @@ species river {
 	list<river> neighbor_river ;
 	float water_volume;
 	float water_volume_from_other;
-	
+	float evapo_rate<-0.35;
 	action water_flow {
 		float avg<-water_volume / length(neighbor_river);
 		ask	neighbor_river - self{			
-			water_volume_from_other <- water_volume_from_other + avg;
+			water_volume_from_other <- water_volume_from_other + 1.4*avg;//0.5*myself.water_volume;
 		}
 	}
 	
 	action update_water_level {
 		float avg<-water_volume / length(neighbor_river);
 		water_volume <- avg + water_volume_from_other;
-		water_volume<-water_volume>0.008?0.008:water_volume;
+		water_volume<-water_volume>0.006?0.006:water_volume;
 		water_volume_from_other <- 0.0;
+	}
+	reflex evapo{
+		water_volume<-water_volume-evapo_rate*rnd(1)*water_volume;
 	}
 	
 	aspect default {
