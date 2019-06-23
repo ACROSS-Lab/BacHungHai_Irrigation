@@ -102,7 +102,7 @@ species Station skills: [moving] {
 species river {
 //	list<river> previous<-[];
 	list<river> neighbor_river ;
-	float water_volume<-0.001;
+	float water_volume;
 	float water_volume_from_other;
 	float evapo_rate<-0.0005;
 	action water_flow {
@@ -128,11 +128,11 @@ species river {
 //		}
 		water_volume <- water_volume_from_other;
 //		water_volume <- avg;// water_volume + water_volume_from_other;
-		water_volume<-water_volume>0.006?0.006:water_volume;
+		water_volume<-water_volume>0.004?0.004:water_volume;
 		water_volume_from_other <- 0.0;
 	}
 	reflex evapo{
-		water_volume<-water_volume-evapo_rate*rnd(1)*water_volume;
+//		water_volume<-water_volume-evapo_rate*rnd(1)*water_volume;
 	}
 	
 	aspect default {
