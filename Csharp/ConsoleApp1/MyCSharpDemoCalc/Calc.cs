@@ -10,15 +10,14 @@ using DHI.Generic.MikeZero.DFS.dfs123;
 
 namespace MyCSharpDemoCalc
 {
+    /*
     public interface ICalc
     {
         string MySuperSmartFunctionIDontHaveInJava(string filename, string gate_name);
     }
-
-    public class DemoCalc : ICalc
+    */
+    public class DemoCalc //: ICalc
     {
-        private readonly Random r = new Random();
-
         public string MySuperSmartFunctionIDontHaveInJava(string filename, string gate_name)
         {
             string result = "";

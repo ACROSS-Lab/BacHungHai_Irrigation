@@ -10,7 +10,7 @@
 package mycsharpdemocalc;
 
 @net.sf.jni4net.attributes.ClrType
-public class DemoCalc extends system.Object implements mycsharpdemocalc.ICalc {
+public class DemoCalc extends system.Object {
     
     //<generated-proxy>
     private static system.Type staticType;

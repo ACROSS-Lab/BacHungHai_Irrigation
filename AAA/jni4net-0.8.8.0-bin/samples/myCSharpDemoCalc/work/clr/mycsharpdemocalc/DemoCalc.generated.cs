@@ -52,7 +52,7 @@ namespace MyCSharpDemoCalc {
             global::net.sf.jni4net.utils.JniHandle @__return = default(global::net.sf.jni4net.utils.JniHandle);
             try {
             global::MyCSharpDemoCalc.DemoCalc @__real = global::net.sf.jni4net.utils.Convertor.StrongJp2C<global::MyCSharpDemoCalc.DemoCalc>(@__env, @__obj);
-            @__return = global::net.sf.jni4net.utils.Convertor.StrongC2JString(@__env, ((global::MyCSharpDemoCalc.ICalc)(@__real)).MySuperSmartFunctionIDontHaveInJava(global::net.sf.jni4net.utils.Convertor.StrongJ2CString(@__env, filename), global::net.sf.jni4net.utils.Convertor.StrongJ2CString(@__env, gate_name)));
+            @__return = global::net.sf.jni4net.utils.Convertor.StrongC2JString(@__env, @__real.MySuperSmartFunctionIDontHaveInJava(global::net.sf.jni4net.utils.Convertor.StrongJ2CString(@__env, filename), global::net.sf.jni4net.utils.Convertor.StrongJ2CString(@__env, gate_name)));
             }catch (global::System.Exception __ex){@__env.ThrowExisting(__ex);}
             return @__return;
         }
