@@ -6,6 +6,7 @@ C:\git\BacHungHai_Irrigation\Csharp\ConsoleApp1\MyCSharpDemoCalc\bin\Debug\DHI.G
 C:\git\BacHungHai_Irrigation\Csharp\ConsoleApp1\MyCSharpDemoCalc\bin\Debug\DHI.PFS.dll
 C:\git\BacHungHai_Irrigation\Csharp\ConsoleApp1\MyCSharpDemoCalc\bin\Debug\DHI.Generic.MikeZero.DFS.xml
 C:\git\BacHungHai_Irrigation\Csharp\ConsoleApp1\MyCSharpDemoCalc\bin\Debug\DHI.PFS.xml
+C:\git\BacHungHai_Irrigation\Csharp\ConsoleApp1\MyCSharpDemoCalc\obj\Debug\MyCSharpDemoCalc.csprojAssemblyReference.cache
 C:\git\BacHungHai_Irrigation\Csharp\ConsoleApp1\MyCSharpDemoCalc\obj\Debug\MyCSharpDemoCalc.csproj.CoreCompileInputs.cache
 C:\git\BacHungHai_Irrigation\Csharp\ConsoleApp1\MyCSharpDemoCalc\obj\Debug\MyCSharpDemoCalc.csproj.CopyComplete
 C:\git\BacHungHai_Irrigation\Csharp\ConsoleApp1\MyCSharpDemoCalc\obj\Debug\MyCSharpDemoCalc.dll

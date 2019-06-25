@@ -5,7 +5,7 @@ VisualStudioVersion = 16.0.28922.388
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleApp1", "ConsoleApp1\ConsoleApp1.csproj", "{CD74486B-70DF-45B3-9FBC-97B953FEF8E0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyCSharpDemoCalc", "MyCSharpDemoCalc\MyCSharpDemoCalc.csproj", "{609ED8D7-846D-4ED2-B0BA-1A677FDE29EA}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mike_Gama_Coupling", "MyCSharpDemoCalc\Mike_Gama_Coupling.csproj", "{609ED8D7-846D-4ED2-B0BA-1A677FDE29EA}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

@@ -1,0 +1,14 @@
+C:\git\BacHungHai_Irrigation\Csharp\ConsoleApp1\MyCSharpDemoCalc\bin\Debug\Mike_Gama.dll
+C:\git\BacHungHai_Irrigation\Csharp\ConsoleApp1\MyCSharpDemoCalc\bin\Debug\Mike_Gama.pdb
+C:\git\BacHungHai_Irrigation\Csharp\ConsoleApp1\MyCSharpDemoCalc\bin\Debug\DHI.DHIfl.dll
+C:\git\BacHungHai_Irrigation\Csharp\ConsoleApp1\MyCSharpDemoCalc\bin\Debug\DHI.Generic.MikeZero.DFS.dll
+C:\git\BacHungHai_Irrigation\Csharp\ConsoleApp1\MyCSharpDemoCalc\bin\Debug\DHI.Generic.MikeZero.EUM.dll
+C:\git\BacHungHai_Irrigation\Csharp\ConsoleApp1\MyCSharpDemoCalc\bin\Debug\DHI.PFS.dll
+C:\git\BacHungHai_Irrigation\Csharp\ConsoleApp1\MyCSharpDemoCalc\bin\Debug\DHI.Generic.MikeZero.DFS.xml
+C:\git\BacHungHai_Irrigation\Csharp\ConsoleApp1\MyCSharpDemoCalc\bin\Debug\DHI.PFS.xml
+C:\git\BacHungHai_Irrigation\AAA\jni4net-0.8.8.0-bin\samples\myCSharpDemoCalc\work\Mike_Gama.dll
+C:\git\BacHungHai_Irrigation\AAA\jni4net-0.8.8.0-bin\samples\myCSharpDemoCalc\work\Mike_Gama.pdb
+C:\git\BacHungHai_Irrigation\Csharp\ConsoleApp1\MyCSharpDemoCalc\obj\Debug\Mike_Gama_Coupling.csproj.CoreCompileInputs.cache
+C:\git\BacHungHai_Irrigation\Csharp\ConsoleApp1\MyCSharpDemoCalc\obj\Debug\Mike_Gama_Coupling.csproj.CopyComplete
+C:\git\BacHungHai_Irrigation\Csharp\ConsoleApp1\MyCSharpDemoCalc\obj\Debug\Mike_Gama.dll
+C:\git\BacHungHai_Irrigation\Csharp\ConsoleApp1\MyCSharpDemoCalc\obj\Debug\Mike_Gama.pdb

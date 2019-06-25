@@ -12,16 +12,3 @@ C:\Users\hqngh\source\repos\ConsoleApp1\ConsoleApp1\bin\Debug\DHI.PFS.xml
 C:\Users\hqngh\source\repos\ConsoleApp1\ConsoleApp1\obj\Debug\ConsoleApp1.csproj.CopyComplete
 C:\Users\hqngh\source\repos\ConsoleApp1\ConsoleApp1\obj\Debug\ConsoleApp1.exe
 C:\Users\hqngh\source\repos\ConsoleApp1\ConsoleApp1\obj\Debug\ConsoleApp1.pdb
-C:\git\BacHungHai_Irrigation\Csharp\ConsoleApp1\ConsoleApp1\bin\Debug\ConsoleApp1.exe.config
-C:\git\BacHungHai_Irrigation\Csharp\ConsoleApp1\ConsoleApp1\bin\Debug\ConsoleApp1.exe
-C:\git\BacHungHai_Irrigation\Csharp\ConsoleApp1\ConsoleApp1\bin\Debug\ConsoleApp1.pdb
-C:\git\BacHungHai_Irrigation\Csharp\ConsoleApp1\ConsoleApp1\bin\Debug\DHI.DHIfl.dll
-C:\git\BacHungHai_Irrigation\Csharp\ConsoleApp1\ConsoleApp1\bin\Debug\DHI.Generic.MikeZero.DFS.dll
-C:\git\BacHungHai_Irrigation\Csharp\ConsoleApp1\ConsoleApp1\bin\Debug\DHI.Generic.MikeZero.EUM.dll
-C:\git\BacHungHai_Irrigation\Csharp\ConsoleApp1\ConsoleApp1\bin\Debug\DHI.PFS.dll
-C:\git\BacHungHai_Irrigation\Csharp\ConsoleApp1\ConsoleApp1\bin\Debug\DHI.Generic.MikeZero.DFS.xml
-C:\git\BacHungHai_Irrigation\Csharp\ConsoleApp1\ConsoleApp1\bin\Debug\DHI.PFS.xml
-C:\git\BacHungHai_Irrigation\Csharp\ConsoleApp1\ConsoleApp1\obj\Debug\ConsoleApp1.csproj.CoreCompileInputs.cache
-C:\git\BacHungHai_Irrigation\Csharp\ConsoleApp1\ConsoleApp1\obj\Debug\ConsoleApp1.csproj.CopyComplete
-C:\git\BacHungHai_Irrigation\Csharp\ConsoleApp1\ConsoleApp1\obj\Debug\ConsoleApp1.exe
-C:\git\BacHungHai_Irrigation\Csharp\ConsoleApp1\ConsoleApp1\obj\Debug\ConsoleApp1.pdb

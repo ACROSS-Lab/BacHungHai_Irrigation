@@ -8,7 +8,7 @@ using DHI.Generic.MikeZero.DFS;
 using DHI.Generic.MikeZero.DFS.dfsu;
 using DHI.Generic.MikeZero.DFS.dfs123;
 
-namespace MyCSharpDemoCalc
+namespace Mike_Gama_Coupling
 {
     /*
     public interface ICalc
@@ -16,9 +16,9 @@ namespace MyCSharpDemoCalc
         string MySuperSmartFunctionIDontHaveInJava(string filename, string gate_name);
     }
     */
-    public class DemoCalc //: ICalc
+    public class Mike_Data //: ICalc
     {
-        public string MySuperSmartFunctionIDontHaveInJava(string filename, string gate_name)
+        public string Dfs0File_Read_Data(string filename, string gate_name)
         {
             string result = "";
             // Open the file as a generic dfs file
