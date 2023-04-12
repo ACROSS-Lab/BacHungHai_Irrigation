@@ -18,7 +18,7 @@ global {
 	list ss <- ["C.Xuan Quan", "BÁO ĐÁP", "Kenh Cau", "CẦU CẤT", "LỰC ĐIỀN", "Cong Neo", "Cong Tranh", "C.Ba Thuy", "C.Cau Xe", "C.An Tho"];
 	Station source;
 	Station dest;
-	matrix<float, float> data <- matrix<float>(matrix(MN_10Cong_20152017));
+	matrix<float> data <- matrix<float>(matrix(MN_10Cong_20152017));
 
 	init {
 		create System_region from: system_region_shapefile;

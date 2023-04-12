@@ -21,7 +21,7 @@ global {
 	obs_ <- [[0, 160, 220, -20, 40], [0, 220, 280, 50, 110], [0, 170, 280, 20, 90], [0, 220, 280, 50, 110], [0, 140, 200, 0, 60], [0, 140, 190, -100, -30], [0, 120, 170, -50, 10], [0, 0, 0, 0, 0], [0, 0, 0, 0, 0], [0, 0, 0, 0, 0]];
 	Station source;
 	Station dest;
-	matrix<float, float> data <- matrix<float>(matrix(MN_10Cong_20152017));
+	matrix<float> data <- matrix<float>(matrix(MN_10Cong_20152017));
 	bool close_lake;
 
 	init {
